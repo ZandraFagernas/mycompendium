@@ -1,9 +1,9 @@
 Package: mycompendium
 Title: Tjorven
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "First",
-           family = "Last",
+Authors@R:
+    person(given = "Herrmann",
+           family = "Tastaway's",
            role = c("aut", "cre"),
            email = "first.last@example.com")
 Description: What the package does (one paragraph)
@@ -11,3 +11,9 @@ License: What license it uses
 ByteCompile: true
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/ZandraFagernas/mycompendium
+BugReports: https://github.com/ZandraFagernas/mycompendium/issues
+Imports: bookdown,
+    here
+Suggests: devtools,
+    git2r
